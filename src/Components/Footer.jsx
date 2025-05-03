@@ -13,7 +13,7 @@ export const Footer = () => {
           </NavLink>
 
         <ul className="nav col-md-4 justify-content-end text-danger">
-          <li className="nav-item"><NavLink className="nav-link px-2 text-warning" to="/">Home | </NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link px-2 text-warning" to="/movielab">Home | </NavLink></li>
           <li className="nav-item"><NavLink className="nav-link px-2 text-warning" to="/movies/top">Top Rated | </NavLink></li>
           <li className="nav-item"><NavLink className="nav-link px-2 text-warning" to="/movies/popular">Popular | </NavLink></li>
           <li className="nav-item"><NavLink className="nav-link px-2 text-warning" to="/movies/upcoming">Upcoming |</NavLink></li>
